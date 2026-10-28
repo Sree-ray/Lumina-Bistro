@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lumina Bistro</title>
+ <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="./CSS/style.css">
+    <link rel="stylesheet" href="./CSS/blog.css">
+
+</head>
+<body>
+<!-- ===================header============================ -->
+    
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg fixed-top custom-navbar">
+    <div class="container">
+
+        <!-- Logo -->
+        <a class="navbar-brand" href="#">
+            <img src="./CSS/images/logo.png" alt="Logo">
+            <span>Lumina Bistro</span>
+        </a>
+
+        <button class="navbar-toggler" type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#menu">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse justify-content-end" id="menu">
+
+            <ul class="navbar-nav align-items-center">
+
+                <li class="nav-item">
+                    <a class="nav-link " href="./home.html">HOME</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link " href="./about.html">ABOUT</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="menu.html">MENU</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link active" href="blog.html">BLOG</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html">CONTACT</a>
+                </li>
+
+                <li class="nav-item ms-4">
+                    <a href="#" class="book-btn">BOOK A TABLE</a>
+                </li>
+
+            </ul>
+
+        </div>
+
+   </div>
+</nav>
+
+<!-- -------------------culinary notes---------------- -->
+
+<section class="culinary-notes">
+    <div class="notes-heading">
+        <h2>Culinary Notes</h2>
+        <p>
+            Exploring the intersection of seasonal flavors, heritage techniques,
+            and the art of modern hospitality.
+        </p>
+    </div>
+
+    <div class="featured-story">
+
+        <!-- Image -->
+        <div class="story-image">
+            <img src="./CSS/images/culinary_notes.png" alt="Featured culinary dish">
+            <span class="featured-tag">FEATURED STORY</span>
+        </div>
+
+        <!-- Content -->
+        <div class="story-content">
+
+            <div class="story-meta">
+                <span>CRAFTSMANSHIP</span>
+                <span>•</span>
+                <span>8 MIN READ</span>
+            </div>
+
+            <h3>
+                The Architecture of Flavor: Reimagining Classical Reductions
+            </h3>
+
+            <p class="story-description">
+                Executive Chef Marcus Thorne discusses the transformative
+                power of time and temperature in modern sauce work, bridging
+                the gap between 19th-century French foundations and
+                contemporary gastronomic minimalism.
+            </p>
+
+            <div class="story-footer">
+
+                <div class="author">
+                    <div class="author-icon">♟</div>
+
+                    <div>
+                        <strong>Marcus Thorne</strong>
+                        <small>EXECUTIVE CHEF</small>
+                    </div>
+                </div>
+
+                <a href="#" class="read-more">
+                    READ MORE
+                    <span>→</span>
+                </a>
+
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<!-- =========================stories========================== -->
+
+<section class="stories-section">
+  <div class="container">
+
+    <!-- Main Content -->
+    <div class="main-content">
+      <h2 class="section-title">Latest Stories</h2>
+
+      <div class="articles-grid">
+
+        <article class="article-card">
+          <img src="./CSS/images/story1.png" alt="Vertical Tasting">
+          <span class="tag">WINE</span>
+          <h3>Vertical Tasting: The Evolution of Terroir</h3>
+          <p>An intimate look at the 2013-2022 vintages from our partner vineyard in the Napa Highlands.</p>
+        </article>
+
+        <article class="article-card">
+          <img src="./CSS/images/story2.png" alt="Winter Herbs">
+          <span class="tag">RECIPE</span>
+          <h3>Winter Herbs: Foraging the Frost</h3>
+          <p>How we utilize resilient botanicals to add depth to our signature seasonal broths.</p>
+        </article>
+
+        <article class="article-card">
+          <img src="./CSS/images/story3.png" alt="The Art of the Digestif">
+          <span class="tag">CRAFTSMANSHIP</span>
+          <h3>The Art of the Digestif</h3>
+          <p>Exploring the history and ritual of the post-dinner beverage in European culture.</p>
+        </article>
+
+        <article class="article-card">
+          <img src="./CSS/images/story4.png" alt="Behind the Pass">
+          <span class="tag">CRAFTSMANSHIP</span>
+          <h3>Behind the Pass: Service Symphony</h3>
+          <p>A photographic essay on the unspoken communication during a Saturday night rush.</p>
+        </article>
+
+      </div>
+    </div>
+
+    <!-- Sidebar -->
+    <aside class="sidebar">
+
+      <div class="widget search-widget">
+        <h4>SEARCH ARCHIVES</h4>
+        <div class="search-box">
+          <input type="text" placeholder="Keywords...">
+          <button type="submit">&#128269;</button>
+        </div>
+      </div>
+
+      <div class="widget newsletter-widget">
+        <h4>Join the Inner Circle</h4>
+        <p>Receive exclusive recipes, early booking access, and invitations to private tasting events.</p>
+        <input type="email" placeholder="Email Address">
+        <button type="submit">SUBSCRIBE</button>
+      </div>
+
+      <div class="widget categories-widget">
+        <h4>POPULAR CATEGORIES</h4>
+        <ul>
+          <li><span>The Wine Cellar</span><span>(12)</span></li>
+          <li><span>Seasonal Recipes</span><span>(24)</span></li>
+          <li><span>Kitchen Philosophy</span><span>(18)</span></li>
+          <li><span>Supplier Stories</span><span>(9)</span></li>
+        </ul>
+      </div>
+
+      <div class="widget gallery-widget">
+        <div class="gallery-grid">
+          <img src="./CSS/images/g1.png" alt="Gallery image">
+          <img src="./CSS/images/g2.png" alt="Gallery image">
+          <img src="./CSS/images/g3.png" alt="Gallery image">
+          <img src="./CSS/images/g4.png" alt="Gallery image">
+          <img src="./CSS/images/g5.png" alt="Gallery image">
+          <img src="./CSS/images/g6.png" alt="Gallery image">
+        </div>
+      </div>
+
+    </aside>
+
+  </div>
+</section>
+
+<!-- ===================footer============================ -->
+
+
+<footer class="footer-section">
+    <div class="container">
+
+        <div class="row">
+
+            <!-- Logo -->
+            <div class="col-lg-3 col-md-6 mb-4">
+
+                <h3 class="footer-logo">
+                    <img src="./CSS/images/logo.png" alt="Logo">
+                    Lumina Bistro
+                </h3>
+
+                <p class="footer-text">
+                    Sustainable, organic, and modern dining experiences in an
+                    elegant urban setting.
+                </p>
+
+            </div>
+
+            <!-- Navigation -->
+            <div class="col-lg-3 col-md-6 mb-4">
+
+                <h5>Navigation</h5>
+
+                <ul class="footer-links">
+                    <li><a href="#">Menu</a></li>
+                    <li><a href="#">Reservations</a></li>
+                    <li><a href="#">Private Dining</a></li>
+                    <li><a href="#">Gift Cards</a></li>
+                </ul>
+
+            </div>
+
+            <!-- About -->
+            <div class="col-lg-3 col-md-6 mb-4">
+
+                <h5>About</h5>
+
+                <ul class="footer-links">
+                    <li><a href="#">Our Story</a></li>
+                    <li><a href="#">Sustainability</a></li>
+                    <li><a href="#">Careers</a></li>
+                    <li><a href="#">Press</a></li>
+                </ul>
+
+            </div>
+
+            <!-- Newsletter -->
+            <div class="col-lg-3 col-md-6 mb-4">
+
+                <h5>Stay Connected</h5>
+
+                <p class="footer-text">
+                    Join our newsletter for invitations to exclusive chef's table events.
+                </p>
+
+                <div class="newsletter">
+                    <input type="email" placeholder="Email Address">
+                    <button>&#8594;</button>
+                </div>
+
+            </div>
+
+        </div>
+
+        <hr>
+
+<div class="footer-bottom">
+
+    <p>
+         © 2026 Ejobindia student -SREEPARNA RAY.  All rights reserved.
+        <a href="#">Privacy Policy</a>
+        <a href="#">Terms of Service</a>
+    </p>
+
+</div>
+
+    </div>
+</footer>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+    
+</body>
+</html>

@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lumina Bistro</title>
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="./CSS/style.css">
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg fixed-top custom-navbar">
+    <div class="container">
+
+        <!-- Logo -->
+        <a class="navbar-brand" href="#">
+            <img src="./CSS/images/logo.png" alt="Logo">
+            <span>Lumina Bistro</span>
+        </a>
+
+        <button class="navbar-toggler" type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#menu">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse justify-content-end" id="menu">
+
+            <ul class="navbar-nav align-items-center">
+
+                <li class="nav-item">
+                    <a class="nav-link active" href="./home.html">HOME</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="./about.html">ABOUT</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="menu.html">MENU</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="blog.html">BLOG</a>
+                </li>
+<li class="nav-item">
+                    <a class="nav-link" href="contact.html">CONTACT</a>
+                </li>
+                <li class="nav-item ms-4">
+                    <a href="#" class="book-btn">BOOK A TABLE</a>
+                </li>
+
+            </ul>
+
+        </div>
+
+    </div>
+</nav>
+
+
+<!-- Hero Section -->
+<section class="hero">
+
+    <div class="overlay"></div>
+
+    <div class="container hero-content">
+
+        <h1>
+            Crafting Culinary <br>
+            Memories in the Heart <br>
+            of the City.
+        </h1>
+
+        <p>
+            Experience seasonal organic flavors and modern techniques
+            through a curated celebration of craft and craftsmanship.
+        </p>
+
+        <div class="hero-btn">
+
+            <a href="#" class="btn btn-book">
+                BOOK A TABLE
+            </a>
+
+            <a href="#" class="btn btn-menu">
+                EXPLORE MENU
+            </a>
+
+        </div>
+
+    </div>
+
+</section>
+<!-- ====================seasonal==================== -->
+<section class="seasonal-section py-5">
+    <div class="container">
+
+        <div class="d-flex justify-content-between align-items-center mb-5">
+
+    <div class="heading-content">
+        <h6 class="season-title">SEASONALS</h6>
+        <h2 class="signature-title">Signature Dishes</h2>
+    </div>
+
+    <div class="carousel-controls">
+        <button class="carousel-btn" type="button"
+            data-bs-target="#seasonCarousel" data-bs-slide="prev">
+            <i class="bi bi-arrow-left"></i>
+        </button>
+
+        <button class="carousel-btn" type="button"
+            data-bs-target="#seasonCarousel" data-bs-slide="next">
+            <i class="bi bi-arrow-right"></i>
+        </button>
+    </div>
+
+</div>
+
+        <div id="seasonCarousel" class="carousel slide">
+
+            <div class="carousel-inner">
+
+                <!-- Slide 1 -->
+                <div class="carousel-item active">
+                    <div class="row g-4">
+
+                        <div class="col-lg-6">
+                            <div class="menu-card">
+                                <img src="./CSS/images/home_menu.png" alt="Food">
+                                <div class="card-content">
+
+    <div class="card-header">
+        <h3>Roasted Heirloom Carrots</h3>
+        <span class="price">$24</span>
+    </div>
+
+    <p>Smoked yogurt, toasted seeds, local honey</p>
+
+</div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-6">
+                            <div class="menu-card">
+                                <img src="./CSS/images/home_menu2.png" alt="Food">
+                                
+                                <div class="card-content">
+
+    <div class="card-header">
+        <h3>Prime Beef Tenderloin</h3>
+        <span class="price">$48</span>
+    </div>
+
+    <p>Parsnip puree, red wine reduction, herbs</p>
+
+</div>
+                                
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <!-- Slide 2 -->
+                <div class="carousel-item">
+                    <div class="row g-4">
+
+                        <div class="col-lg-6">
+                            <div class="menu-card">
+                                <img src="./CSS/images/home_menu.png" alt="Food">
+                                     <div class="card-content">
+
+    <div class="card-header">
+        <h3>Prime Beef Tenderloin</h3>
+        <span class="price">$48</span>
+    </div>
+
+    <p>Parsnip puree, red wine reduction, herbs</p>
+
+</div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-6">
+                            <div class="menu-card">
+                                <img src="./CSS/images/home_menu2.png" alt="Food">
+                                 <div class="card-content">
+
+    <div class="card-header">
+        <h3>Prime Beef Tenderloin</h3>
+        <span class="price">$48</span>
+    </div>
+
+    <p>Parsnip puree, red wine reduction, herbs</p>
+
+</div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+</section>
+<!-- =================story====================== -->
+<section class="story-section">
+    <div class="container">
+
+        <div class="row align-items-start ">
+
+            <!-- Left Image -->
+            <div class="col-lg-5">
+
+                <div class="chef-image">
+
+                    <img src="./CSS/images/chef.png" alt="Chef">
+
+                    <div class="quote-box">
+                        <h4>"Flavor is a memory we choose to relive."</h4>
+                        <p>— Chef Julian Rossi</p>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <!-- Right Content -->
+            <div class="col-lg-7 text-content">
+
+                <h6 class="small-title">OUR STORY</h6>
+
+                <h2 class="main-title">
+                    Elevating Simple <br>
+                    Ingredients to Fine Art.
+                </h2>
+
+                <p>
+                    Founded in 2012, Lumina Bistro began with a simple mission:
+                    to bridge the gap between traditional organic farming and
+                    modern culinary artistry.
+                </p>
+
+                <p>
+                    Every ingredient we source is hand-picked from local
+                    sustainable farms. Our kitchen is a laboratory of taste
+                    where centuries-old techniques meet contemporary
+                    innovation, creating an experience that nourishes both
+                    the body and the soul.
+                </p>
+
+                <a href="#" class="story-btn">
+                    READ OUR FULL JOURNEY
+                    <span>&#8594;</span>
+                </a>
+
+            </div>
+
+        </div>
+
+    </div>
+</section>
+
+<!-- =====================testimonial======================= -->
+<section class="testimonial-section">
+    <div class="container">
+
+        <div class="text-center mb-5">
+            <h6 class="section-subtitle">GUEST EXPERIENCES</h6>
+            <h2 class="section-title">Stories from Our Tables</h2>
+        </div>
+
+        <div class="row">
+
+            <div class="col-lg-4 col-md-6 mb-4">
+                <div class="testimonial-card">
+                    <p class="testimonial-text">
+                        "An unparalleled dining experience. The attention to detail in the plating and the depth of flavor in the truffle risotto was truly remarkable."
+                    </p>
+
+                    <h5>ELEANOR VANCE</h5>
+                    <span>Food Critic</span>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 mb-4">
+                <div class="testimonial-card">
+                    <p class="testimonial-text">
+                        "Lumina is our go-to for special occasions. The atmosphere is warm yet sophisticated, and the wine pairings are always impeccably chosen."
+                    </p>
+
+                    <h5>MARCUS THORNE</h5>
+                    <span>Loyal Patron</span>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 mb-4">
+                <div class="testimonial-card">
+                    <p class="testimonial-text">
+                        "The organic approach is evident in every bite. The Roasted Heirloom Carrots were a revelation. Simply outstanding service as well."
+                    </p>
+
+                    <h5>SARAH JENKINS</h5>
+                    <span>Eco-Gastronomer</span>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+</section>
+<!-- ======================location======================= -->
+
+<section class="location-section">
+    <div class="container">
+
+        <div class="row align-items-start">
+
+            <!-- Left Content -->
+            <div class="col-lg-6 mb-5 gx-5">
+
+                <div class="hours">
+
+                    <h2>Opening Hours</h2>
+
+                    <div class="time-row">
+                        <span>Monday — Friday</span>
+                        <span>12:00 PM - 10:00 PM</span>
+                    </div>
+
+                    <div class="time-row">
+                        <span>Saturday</span>
+                        <span>11:00 AM - 11:30 PM</span>
+                    </div>
+
+                    <div class="time-row">
+                        <span>Sunday</span>
+                        <span>11:00 AM - 9:00 PM</span>
+                    </div>
+
+                </div>
+
+                <div class="location-info">
+
+                    <h2>Location</h2>
+
+                    <p>
+                        452 Lumina Way, Suite 10 <br>
+                        Metropolitan District, NY 10012
+                    </p>
+
+                    <a href="#" class="direction-btn">
+                        GET DIRECTIONS
+                    </a>
+
+                </div>
+
+            </div>
+
+            <!-- Right Image -->
+            <div class="col-lg-6">
+
+                <div class="map-image">
+                    <img src="./CSS/images/location.png" alt="Map">
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+</section>
+
+<footer class="footer-section">
+    <div class="container">
+
+        <div class="row">
+
+            <!-- Logo -->
+            <div class="col-lg-3 col-md-6 mb-4">
+
+                <h3 class="footer-logo">
+                    <img src="./CSS/images/logo.png" alt="Logo">
+                    Lumina Bistro
+                </h3>
+
+                <p class="footer-text">
+                    Sustainable, organic, and modern dining experiences in an
+                    elegant urban setting.
+                </p>
+
+            </div>
+
+            <!-- Navigation -->
+            <div class="col-lg-3 col-md-6 mb-4">
+
+                <h5>Navigation</h5>
+
+                <ul class="footer-links">
+                    <li><a href="#">Menu</a></li>
+                    <li><a href="#">Reservations</a></li>
+                    <li><a href="#">Private Dining</a></li>
+                    <li><a href="#">Gift Cards</a></li>
+                </ul>
+
+            </div>
+
+            <!-- About -->
+            <div class="col-lg-3 col-md-6 mb-4">
+
+                <h5>About</h5>
+
+                <ul class="footer-links">
+                    <li><a href="#">Our Story</a></li>
+                    <li><a href="#">Sustainability</a></li>
+                    <li><a href="#">Careers</a></li>
+                    <li><a href="#">Press</a></li>
+                </ul>
+
+            </div>
+
+            <!-- Newsletter -->
+            <div class="col-lg-3 col-md-6 mb-4">
+
+                <h5>Stay Connected</h5>
+
+                <p class="footer-text">
+                    Join our newsletter for invitations to exclusive chef's table events.
+                </p>
+
+                <div class="newsletter">
+                    <input type="email" placeholder="Email Address">
+                    <button>&#8594;</button>
+                </div>
+
+            </div>
+
+        </div>
+
+        <hr>
+
+<div class="footer-bottom">
+
+    <p>
+        © 2026 Ejobindia student -SREEPARNA RAY.  All rights reserved.
+        <a href="#">Privacy Policy</a>
+        <a href="#">Terms of Service</a>
+    </p>
+
+</div>
+
+    </div>
+</footer>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
