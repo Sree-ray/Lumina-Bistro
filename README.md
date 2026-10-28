@@ -38,7 +38,6 @@ lumina-bistro/
 └── README.md
 ```
 
-*Note: Update this structure to match the actual folders and filenames in your project.*
 
 ## What I Learned
 
